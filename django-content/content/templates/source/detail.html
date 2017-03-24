@@ -1,0 +1,13 @@
+{% for article in articles %}
+    <div class="title">
+        <span>{{ article.title }}</span>
+    </div>
+    {% if article.image_url %}
+        <div class="image">
+            <img src={{ article.image_url }}></img>
+        </div>
+    {% endif %}
+    <div class=discription>
+        {{ article.description | safe}}
+    </div>
+{% endfor %}
