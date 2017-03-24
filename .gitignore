@@ -10,6 +10,7 @@ lib/
 include/
 bin/
 local/
+pip-selfcheck.json
 
 *.wpr
 *.wpu
