@@ -6,5 +6,10 @@ __pycache__
 *.egg-info/
 dist/
 
+lib/
+include/
+bin/
+local/
+
 *.wpr
 *.wpu
